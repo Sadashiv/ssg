@@ -1,0 +1,11 @@
+*.pyc
+downloads/*
+usr
+download*
+*db.sqlite3*
+ssg/migrations*
+ssg/__pycache__/
+sites/*
+logs/*.log
+static/admin/
+templates/ssg/
