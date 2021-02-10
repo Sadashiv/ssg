@@ -8,4 +8,3 @@ ssg/__pycache__/
 sites/*
 logs/*.log
 static/admin/
-templates/ssg/
