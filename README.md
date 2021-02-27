@@ -17,8 +17,8 @@ Step 2 : cd ::
          Error: zipimport.ZipImportError: can't decompress data; zlib not available
          RHEL/CentOS: yum install gcc gcc-c++ zlib zlib.i686 zlib-devel zlib-devel.i686 libffi-devel xz-devel \
                       sqlite-devel python-devel openldap-devel openssl-devel bzip2-devel sqlite sqlite-devel openssl-devel.i686
-         UBUNTU: apt-get install gcc gcc-c+ libncursesw5-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libssl-dev \
-                 openssl zlib zlib1g-dev libffi-dev libmysqlclient-dev libsasl2-dev python-dev libldap2-dev libbz2-dev
+         UBUNTU: apt-get install build-essential gcc libncursesw5-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev libssl-dev \
+                 openssl zlib1g-dev libffi-dev libmysqlclient-dev libsasl2-dev python-dev libldap2-dev libbz2-dev
          Once above command execution success
          check python installed in the current working directory
          $ ./usr/bin/python3
@@ -60,3 +60,10 @@ sudo yum install nginx -y
 Generate self signed certifcate
 openssl req -new -newkey rsa:4096 -x509 -sha256 -days 3650 -nodes -out /etc/nginx/ssl/ssg.crt -keyout \
 /etc/nginx/ssl/ssg.key -subj '/CN=ssgindia.net/O=SSG India Pvt Ltd/C=IN'
+
+
+Deployment
+sudo amazon-linux-extras install epel
+
+# then install supervisor
+sudo yum install supervisor
