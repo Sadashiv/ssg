@@ -67,3 +67,11 @@ sudo amazon-linux-extras install epel
 
 # then install supervisor
 sudo yum install supervisor
+
+https://themeforest.net/item/garment-tshirt-store-prestashop-theme/25610666
+https://themeforest.net/item/modez-minimal-responsive-html-template-for-fashion-shop/20155271
+https://colorlib.com/wp/free-fashion-website-templates/
+http://preview.themeforest.net/item/modez-minimal-responsive-html-template-for-fashion-shop/full_screen_preview/20155271?_ga=2.1581234.2086121785.1612792304-945262508.1590575197
+
+https://uicookies.com/free-fashion-website-templates/
+https://colorlib.com/wp/template/fashi/
